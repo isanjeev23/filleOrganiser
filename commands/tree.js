@@ -22,6 +22,7 @@ function treeHelper(dirPath, indent) {
         let fileName = path.basename(dirPath);
 
         console.log(indent +"├──" + fileName);
+        return ;
     }
     else{
         let dirName = path.basename(dirPath);
@@ -36,6 +37,7 @@ function treeHelper(dirPath, indent) {
 
             treeHelper(childPath , indent + "\t");
         } 
+        return ;
     }
 }
 

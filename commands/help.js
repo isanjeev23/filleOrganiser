@@ -15,7 +15,7 @@ function helpFun(){
     `);
 }
 
-console.log("just to see it will wrap up the code otside of function")
+
 
 module.exports ={
     helpkey : helpFun
